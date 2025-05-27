@@ -1,0 +1,702 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0c3f72ff-58f6-499b-825a-c1910351bd10" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Animal</ID>
+  <Name>Dim Animal</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1475" scrolltop="-1411" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="5969" y="14965" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimStrayMap" left="2701" top="113" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3831" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f70e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimStrayMap" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimBreed" left="6145" top="7759" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="4149" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000035100000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimBreed" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAnimal" left="1536" top="7541" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3620" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000240e000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimAnimal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimColor" left="1829" top="14322" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3260" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bc0c00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimColor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2567" top="4614" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="2179" height="3227" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimAnimal-DimStrayMap]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="1" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2966" y="5113" />
+              <point x="2966" y="6256" />
+              <point x="4446" y="6256" />
+              <point x="4446" y="7541" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4856" top="7583" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="1589" height="841" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimAnimal-DimBreed]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6145" y="7982" />
+              <point x="5651" y="7982" />
+              <point x="5651" y="8124" />
+              <point x="5156" y="8124" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1396" top="11707" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="2463" height="3115" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimAnimal-DimColor]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3459" y="14322" />
+              <point x="3459" y="13137" />
+              <point x="1696" y="13137" />
+              <point x="1696" y="12007" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>1475</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1411</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>1536</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>113</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d561c3af-e38d-4f59-83c1-65362e3b9820">
+    <DataSourceViewID>DSV_AustinAnimalCenter</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="b1e8acce-4d7c-4538-885d-d30c1106de37">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0764a7c9-b43b-4a24-ae09-c81bcf52135f">
+      <ID>Animal SK</ID>
+      <Name>Animal SK</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>18000</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af3584b3-5095-4f4d-8bc9-b64a1c61f906">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df1000a7-f83f-4cab-a041-75c310a4e5f2">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>Animal_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e3068f03-4b1f-4bb0-937d-4a97aed6c7e2">
+          <AttributeID>Color SK</AttributeID>
+          <Name>Color SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bbdddbc4-70c6-4118-8420-ce53b5ce595c">
+          <AttributeID>Breed SK</AttributeID>
+          <Name>Breed SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eccbad91-ddc2-4318-870b-9228b9bda0fd">
+          <AttributeID>Stray Map SK</AttributeID>
+          <Name>Stray Map SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2932ffd-9e94-4a97-9731-a560a5c6f31d">
+          <AttributeID>Alternate Stray Map ID</AttributeID>
+          <Name>Alternate Stray Map ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bf3da07e-a8da-4456-b0ce-b2829e742a6f">
+          <AttributeID>Found Location SM</AttributeID>
+          <Name>Found Location SM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3b15d8aa-1e6c-4695-88c4-8d02bfb03688">
+          <AttributeID>At AAC</AttributeID>
+          <Name>At AAC</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2aec3d5b-d62f-4f2b-b31e-c1ca4e31c614">
+          <AttributeID>Intake Date</AttributeID>
+          <Name>Intake Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3fc14f1c-ce74-485f-9565-b8137d65ff6a">
+          <AttributeID>Type</AttributeID>
+          <Name>Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7589c29f-4c71-40b1-aaa6-f9f106f92cf1">
+          <AttributeID>Age</AttributeID>
+          <Name>Age</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a135dfe0-37fc-484a-a4df-336ec54bad1d">
+          <AttributeID>Image Link</AttributeID>
+          <Name>Image Link</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bc4bd732-6a73-46bc-8748-7ce3d8dc4991">
+          <AttributeID>Alternate Animal ID</AttributeID>
+          <Name>Alternate Animal ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="983b4c22-8682-499b-9498-a1478bf8c95b">
+          <AttributeID>Animal Name</AttributeID>
+          <Name>Animal Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8198863-e1ca-4d20-831f-e9dbf338455e">
+          <AttributeID>Date Of Birth</AttributeID>
+          <Name>Date Of Birth</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="332750b2-dace-400e-acb2-5570b58479e2">
+          <AttributeID>Animal Type</AttributeID>
+          <Name>Animal Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="01967f2c-cfc7-4962-9cb9-edc8c37979f7">
+          <AttributeID>Stray Map ID</AttributeID>
+          <Name>Stray Map ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="20e1e9c9-3799-4afa-8d9c-e913e9f1f895">
+          <AttributeID>Color ID</AttributeID>
+          <Name>Color ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8dcb3757-d3bb-4af3-a3fc-e66af42caa75">
+          <AttributeID>Breed ID</AttributeID>
+          <Name>Breed ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="090d151f-76a6-4859-b050-454a02f046f4">
+          <AttributeID>Alternate Breed Number</AttributeID>
+          <Name>Alternate Breed Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b63710d4-a491-407b-b5ec-62a56eafbbfb">
+          <AttributeID>Breed</AttributeID>
+          <Name>Breed</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="25435569-e290-4313-82da-cfab48a0fc76">
+          <AttributeID>Primary Breed</AttributeID>
+          <Name>Primary Breed</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="47ee9f96-5ca6-44f1-b579-d605269f9be4">
+          <AttributeID>Secondary Breed</AttributeID>
+          <Name>Secondary Breed</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2bbc73a4-c1b2-491a-b2b5-78ed546c263b">
+          <AttributeID>Is Mixed</AttributeID>
+          <Name>Is Mixed</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ef3f106c-67c4-4efc-98da-680ea92e3f37">
+          <AttributeID>Alternate Color ID</AttributeID>
+          <Name>Alternate Color ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="48bdc955-a544-411a-b973-146385943237">
+          <AttributeID>Color Name</AttributeID>
+          <Name>Color Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4cceeb18-0365-4a1a-9647-7c75bd6ab8f8">
+      <ID>Color SK</ID>
+      <Name>Color SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5cd05eb9-eae3-47dc-b80f-a3a792bdc591">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4e79785-2e71-4cc0-b159-0d2ee9c66fcf">
+            <TableID>dbo_DimColor</TableID>
+            <ColumnID>ColorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="170b0f29-dd3f-4b23-a0cf-b08402eeff57">
+      <ID>Breed SK</ID>
+      <Name>Breed SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d416865-6068-4eba-85cd-3880a8b1f13c">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c14c2ee-7f62-49a2-96c4-24481f89c883">
+            <TableID>dbo_DimBreed</TableID>
+            <ColumnID>BreedSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="511bab4a-a335-4304-9cfe-2ed862afbe21">
+      <ID>Stray Map SK</ID>
+      <Name>Stray Map SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d8e449a6-4348-4535-abc7-fa417ae503fc">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6fce5b76-f37d-4b5a-ba3d-a9ee605479c3">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>StrayMap_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="215b7c2a-a481-4c39-8d1f-a70956d53db6">
+      <ID>Alternate Stray Map ID</ID>
+      <Name>Alternate Stray Map ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="166b175d-d441-460c-8a70-1cf8c603ed63">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3116902e-01cf-4b8e-afd2-f43bdb0a952b">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>AlternateStrayMapID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4e826b22-030b-4abe-b3f8-07019f5842dc">
+      <ID>Found Location SM</ID>
+      <Name>Found Location SM</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c7e77345-a71c-413b-b72c-cf924a748d0d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="739ef8a3-6d49-40d4-8ef3-66530af89308">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>StrayMap_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="80d3e7b5-e429-4a30-924c-f9151e0f8fa1">
+      <ID>At AAC</ID>
+      <Name>At AAC</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7990f2b6-0489-4d47-b4fd-c04c3d6f41be">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="630f926a-41e3-48be-a0a0-bd8416a4c864">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>At_AAC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c43c4be4-7953-419f-ae92-4ba5529409be">
+      <ID>Intake Date</ID>
+      <Name>Intake Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="898dd2fd-1800-479e-ba34-c439d2bb9e6c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6735862c-b68c-41c8-bd6b-1875e9b600f4">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>Intake_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0447fd6c-76ce-44b9-9d71-9c6619a6f7bf">
+      <ID>Type</ID>
+      <Name>Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f6236e9a-fdfd-4302-b4c0-cbc932866a08">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="52bfb47b-93eb-453d-bdba-4bddf4ec6c5b">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8c9e539b-5265-48e3-a352-9955142589da">
+      <ID>Age</ID>
+      <Name>Age</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="18631b17-da72-47c9-a1fe-9100da7f4079">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="40d7bdc1-3baf-4e04-ac2a-4bea7596e147">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>Age</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f7b0aa1a-5ddb-479e-83c9-434c5d267a48">
+      <ID>Image Link</ID>
+      <Name>Image Link</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9fbdc2aa-ec13-42ab-aa0f-5903535db37f">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f6e8ae2-7f44-4378-9aa5-6708987f53b8">
+            <TableID>dbo_DimStrayMap</TableID>
+            <ColumnID>Image_Link</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e674b810-8237-4bd4-b693-bb1763398cef">
+      <ID>Alternate Animal ID</ID>
+      <Name>Alternate Animal ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="704361dd-8320-49dc-93dd-36b95579332f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e2cd94e-8949-472f-a8c2-5ac9bc8eae81">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>AlternateAnimal_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4e03306c-b88b-4017-8c13-7e6de643486b">
+      <ID>Animal Name</ID>
+      <Name>Animal Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5a4c0770-7ae3-41b5-8369-dd57c2ade407">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2de76214-64ce-4754-8b6e-0528f781b49e">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>AnimalName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1efaa8d6-4270-4e4b-bcae-51e9f211fe02">
+      <ID>Date Of Birth</ID>
+      <Name>Date Of Birth</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="799dc9b0-5bbe-4c10-a177-d77e7289e3af">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0e40a67-72d7-450f-a7b2-1a57c2154a49">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>Date_of_Birth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e0c281ed-a128-4e82-ac5d-4dfa3799b273">
+      <ID>Animal Type</ID>
+      <Name>Animal Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a18dec7c-6d22-4570-91ba-024c805e9f49">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15cc2d19-2dca-4ea8-bf02-c5990017f94e">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>Animal_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9604b143-c804-4821-bd9f-ee8464e60182">
+      <ID>Stray Map ID</ID>
+      <Name>Stray Map ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8af3f2ff-1137-437b-b68f-76aff06b8a4b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2f70bd1-c964-4f4b-b0b0-2462f1bda99a">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>Stray_Map_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e50bfbcf-1856-4ca4-b1d1-4a69842229e1">
+      <ID>Color ID</ID>
+      <Name>Color ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6c82e281-b744-45df-a9e1-1509ddee927e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f6208534-090e-4896-8696-735b14b4fa15">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>Color_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d88ff59-c293-49de-9fb1-fbe454a241ee">
+      <ID>Breed ID</ID>
+      <Name>Breed ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a6549eee-f1a9-49be-ae1e-964d54205033">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f68433e0-25a6-48f1-8744-f9c0d879e891">
+            <TableID>dbo_DimAnimal</TableID>
+            <ColumnID>Breed_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="60855b87-30f2-4d9b-a772-58631077e82d">
+      <ID>Alternate Breed Number</ID>
+      <Name>Alternate Breed Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dc382072-2dd3-4c37-bf7a-b783af729c30">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4c6a6ff-5a49-40fa-a0a7-14cabaca700a">
+            <TableID>dbo_DimBreed</TableID>
+            <ColumnID>AlternateBreedNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9696c4fa-b2f4-4230-8136-a1eac0143462">
+      <ID>Breed</ID>
+      <Name>Breed</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8bbdb959-9ddc-46f5-9e4c-349924714c55">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d3696f0-7e46-4313-8fa4-76de6fb2ce29">
+            <TableID>dbo_DimBreed</TableID>
+            <ColumnID>Breed</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9591a514-e567-49c9-81f1-61d06ffd1444">
+      <ID>Primary Breed</ID>
+      <Name>Primary Breed</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c47e4727-c020-4cb1-94d4-2f5d845f8b43">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d816195-6bf6-4ad0-9d00-30c62b6035ee">
+            <TableID>dbo_DimBreed</TableID>
+            <ColumnID>PrimaryBreed</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71e945bc-d1e3-4c1f-b23e-023c16e152c2">
+      <ID>Secondary Breed</ID>
+      <Name>Secondary Breed</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8449128d-df0c-4acc-94bf-330d0580da4b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="59afc12e-fa25-4539-9e02-e0a7d29b77fb">
+            <TableID>dbo_DimBreed</TableID>
+            <ColumnID>SecondaryBreed</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="939e32b4-2814-4dee-9b82-6420eee483c4">
+      <ID>Is Mixed</ID>
+      <Name>Is Mixed</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10cb3e88-73ae-4e08-9380-d0ef90431312">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9a5f6dd-144a-4f40-bbdc-c807c09fefae">
+            <TableID>dbo_DimBreed</TableID>
+            <ColumnID>IsMixed</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29259fa0-afee-4cfb-bef4-e19252701c50">
+      <ID>Alternate Color ID</ID>
+      <Name>Alternate Color ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e00f7afd-2df7-460f-ae54-a890c8c487cd">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5e7246b-3f62-4a43-970d-431a6737da1d">
+            <TableID>dbo_DimColor</TableID>
+            <ColumnID>AlternateColorID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a4ae84f5-a279-430b-94a9-3812f8708614">
+      <ID>Color Name</ID>
+      <Name>Color Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2c833d81-6d9e-4c7e-badb-de6671b7a083">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="527d9429-992f-4400-ae42-dc2d773d568f">
+            <TableID>dbo_DimColor</TableID>
+            <ColumnID>ColorName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="4af5445a-5f0c-4304-afec-034391017fbf">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="230b418f-850a-4abd-b144-67d0d2bf40b1">
+          <ID>Breed</ID>
+          <Name>Breed</Name>
+          <SourceAttributeID>Breed</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="39462655-5f11-4453-bcf0-7b2f95be0a29">
+          <ID>Primary Breed</ID>
+          <Name>Primary Breed</Name>
+          <SourceAttributeID>Primary Breed</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ccc0d064-ba01-498c-b4ab-30270445fde7">
+          <ID>Secondary Breed</ID>
+          <Name>Secondary Breed</Name>
+          <SourceAttributeID>Secondary Breed</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="93fc25da-e9bf-4358-b125-635fdc1d48a8">
+          <ID>Is Mixed</ID>
+          <Name>Is Mixed</Name>
+          <SourceAttributeID>Is Mixed</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
